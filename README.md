@@ -20,10 +20,6 @@ In this project we used Gorilla/mux and made 5 postman request
 
 
 ```go
-  go get 
   go build
-
-  ./movieCrud | or  |
-
   go run main.go
 ```
