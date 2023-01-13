@@ -9,22 +9,22 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-  Movie "github.com/maririn312/movieCrud/models"
+  "github.com/maririn312/moveCrud/models"
 )
 
-// type Movie struct {
-// 	ID       string    `json:"id"`
-// 	Isbn     string    `json:"isbn"`
-// 	Title    string    `json:"title"`
-// 	Director *Director `json:"director"`
-// }
+type Movie struct {
+	ID       string    `json:"id"`
+	Isbn     string    `json:"isbn"`
+	Title    string    `json:"title"`
+	Director *Director `json:"director"`
+}
 
-// type Director struct {
-// 	Firstname string `json:"firstname"`
-// 	Lastname  string `json:"lastname"`
-// }
+type Director struct {
+	Firstname string `json:"firstname"`
+	Lastname  string `json:"lastname"`
+}
 
-var movies []Movie
+var movies []models.movie
 
 func getMovies(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")

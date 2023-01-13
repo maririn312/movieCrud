@@ -1,4 +1,4 @@
-module go_movies_crud
+module github.com/maririn312/moveCrud
 
 go 1.19
 
