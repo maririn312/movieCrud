@@ -9,7 +9,6 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-  "github.com/maririn312/moveCrud/models"
 )
 
 type Movie struct {
