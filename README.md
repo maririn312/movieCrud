@@ -3,6 +3,12 @@
 # Gorilla/Mux JSON Formatter
 # https://github.com/gorilla/mux
 
+<h2>
+    Movie Crude Service Using Postman 
+</h2>
+
+![alt text](diagram.jpeg)
+
 In this project we used Gorilla/mux and made 5 postman request 
 
 1.  getMovies Request
